@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pradeep Kumar - Portfolio</title>
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- Header section -->
+    <header class="navbar navbar-expand-lg navbar-dark bg-black sticky-top">
+        <a class="navbar-brand text-white" href="#">Pradeep Kumar</a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link text-white" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#dashboards">Power BI Dashboards</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero section -->
+    <section class="hero bg-dark-grey text-center text-light py-5">
+        <div class="container">
+            <h1>Hi, I'm Pradeep Kumar</h1>
+            <p>Data Analyst | Power BI Expert | Problem Solver</p>
+            <a href="#projects" class="btn btn-highlight">View My Work</a>
+        </div>
+    </section>
+
+    <!-- About section -->
+    <section id="about" class="py-5 bg-black text-light">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I specialize in transforming data into actionable insights using Power BI, SQL, and advanced analytics techniques...</p>
+        </div>
+    </section>
+
+    <!-- Skills section -->
+    <section id="skills" class="py-5 bg-grey">
+        <div class="container">
+            <h2 class="text-light">Skills</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h4 class="text-light">Power BI</h4>
+                    <div class="progress mb-3">
+                        <div class="progress-bar bg-highlight" style="width: 90%">90%</div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h4 class="text-light">SQL</h4>
+                    <div class="progress mb-3">
+                        <div class="progress-bar bg-highlight" style="width: 85%">85%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects section -->
+    <section id="projects" class="py-5 bg-black text-light">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 bg-grey text-light">
+                        <div class="card-body">
+                            <h5 class="card-title">Sales Dashboard</h5>
+                            <p class="card-text">Developed a Power BI dashboard to visualize sales trends...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 bg-grey text-light">
+                        <div class="card-body">
+                            <h5 class="card-title">Customer Insights Dashboard</h5>
+                            <p class="card-text">Analyzed customer data to provide actionable insights...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Power BI Dashboards section -->
+    <section id="dashboards" class="py-5 bg-grey">
+        <div class="container">
+            <h2 class="text-light">Power BI Dashboards</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h4 class="text-light">Sales Performance</h4>
+                    <img src="images/sales_dashboard.png" alt="Sales Dashboard" class="img-fluid">
+                </div>
+                <div class="col-md-6">
+                    <h4 class="text-light">Customer Insights</h4>
+                    <img src="images/customer_dashboard.png" alt="Customer Insights Dashboard" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact" class="py-5 bg-black text-light">
+        <div class="container">
+            <h2>Contact</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name" class="text-light">Name</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email" class="text-light">Email</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message" class="text-light">Message</label>
+                    <textarea class="form-control" id="message" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-highlight">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="text-center py-3 bg-dark-grey text-light">
+        <p>&copy; 2024 Pradeep Kumar. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

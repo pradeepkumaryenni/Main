@@ -1,0 +1,29 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #E0E0E0;
+}
+.bg-black {
+    background-color: #1E1E1E;
+}
+.bg-grey {
+    background-color: #2C2C2C;
+}
+.bg-dark-grey {
+    background-color: #121212;
+}
+.text-light {
+    color: #E0E0E0;
+}
+.btn-highlight {
+    background-color: #00FF94;
+    color: #121212;
+}
+.progress-bar.bg-highlight {
+    background-color: #00FF94;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
